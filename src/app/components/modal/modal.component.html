@@ -1,0 +1,13 @@
+<div class="modal" *ngIf="isShown">
+  <div class="modal-img">
+    <h2 class="modal-title">{{card.name}}</h2>
+    <img class="img" src="../../../assets/images/bartSimpson.jpg" alt="">
+  </div>
+  <div class="modal-body">
+    <p class="modal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos quaerat soluta sequi sint nesciunt tempora iusto minus repellendus placeat?</p>
+    <div class="modal-btns">
+      <button class="close-btn" (click)="closeModal()">Close</button>
+      <button class="delete-btn">Delete</button>
+    </div>
+  </div>
+</div>

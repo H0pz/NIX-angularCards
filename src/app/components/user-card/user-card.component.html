@@ -1,0 +1,11 @@
+<app-modal #modal [card]="card"></app-modal>
+<div class="card">
+  <div class="card-img">
+    <h4 class="card-title">{{card.name}}</h4>
+    <img class="img" src="../../../assets/images/bartSimpson.jpg" alt="bart">
+  </div>
+  <div class="card-body">
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit molestiae minima, nihil corrupti quo aperiam?</p>
+    <button class="card-btn" (click)="modal.openModal()">Open Card</button>
+  </div>
+</div>
